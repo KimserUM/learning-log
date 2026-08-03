@@ -4,35 +4,37 @@
 
 目标北理工，明年三四月复试。
 
+> 2026.08.03: 从旧GitHub账号迁移到当前账号(原账号废弃不用了)
+
 ## 复习科目
 
-写了笔记的就放 notes/ 下面，目前还是空的..
+笔记放 notes/ 下面，目前只有计网的:
 
-- 数据结构
+- 数据结构 (还没开始写..)
 - 操作系统
-- 计算机网络
+- 计算机网络 ✅ tcp-http-notes.md
 - 计组
 - 数据库
 
-## 项目
+## 项目时间线
 
-准备了几个项目，做到哪算哪吧：
+| 时间 | 项目 | 状态 |
+|------|------|------|
+| 6月中旬 | 学习日志工具 | ✅ |
+| 6月底-7月初 | mini-http-server (C) | ✅ |
+| 7月中下旬 | mini-kvstore (分布式) | ✅ |
+| 7月底-8月初 | mini-sql (编译原理) | ✅ |
+| 8月 | CV项目 | 🚧 |
+| 8月 | 个人博客 | ⏳ |
 
-1. 学习日志工具 ✅ — python脚本，每天生成md
-2. HTTP服务器 ✅ — C语言, socket + 线程池
-3. KV存储引擎 ✅ — Python + Raft共识
-4. Mini SQL ✅ — 词法分析 + 递归下降 + 执行引擎
-5. CV项目 — 之前有篇CV论文，继续做
-6. 个人博客 — 最后整合展示
+这些项目之前在另一个账号上，8月3号迁移过来了。
 
 ## 怎么用
 
 ```bash
-# 生成今天的学习日志
-python tools/loggen/loggen.py
-
-# 看这周学了啥
-python tools/loggen/loggen.py --week
+python tools/loggen/loggen.py          # 生成今天的学习日志
+python tools/loggen/loggen.py --week   # 看这周学了啥
+python tools/loggen/loggen.py --month  # 月报
 ```
 
-daily/ 下面的日志就是每天写的，按日期放着。
+daily/ 下面是每天写的学习记录，从6月15号开始。
