@@ -150,7 +150,7 @@ def generate_daily(date_str: str = None):
 - [ ]
 
 ---
-*自动生成于 {datetime.now().strftime('%Y-%m-%d %H:%M')} | 考研复试倒计时*
+*记录于 {datetime.now().strftime('%Y-%m-%d %H:%M')}*
 """
     file_path.write_text(content, encoding="utf-8")
     print(f"✅ 日志已生成: {file_path}")
@@ -227,7 +227,7 @@ def main():
     parser.add_argument("--week", action="store_true", help="生成本周周报")
     parser.add_argument("--month", action="store_true", help="生成本月月报")
     parser.add_argument("--stats", action="store_true", help="查看学习统计")
-    parser.add_argument("--push", action="store_true", help="生成日志后自动 commit + push")
+    parser.add_argument("--push", action="store_true", help="生成日志后 commit + push")
 
     args = parser.parse_args()
 
