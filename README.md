@@ -21,7 +21,7 @@
 1. 学习日志工具 ✅ — python脚本，每天生成md
 2. HTTP服务器 ✅ — C语言, socket + 线程池
 3. KV存储引擎 ✅ — Python + Raft共识
-4. Mini SQL — 写个sql解析器
+4. Mini SQL ✅ — 词法分析 + 递归下降 + 执行引擎
 5. CV项目 — 之前有篇CV论文，继续做
 6. 个人博客 — 最后整合展示
 
